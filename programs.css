@@ -1,0 +1,174 @@
+
+.container {
+  background: #151c26;
+  background: linear-gradient(90deg, rgba(21, 28, 38, 1) 0%, rgba(8, 56, 94, 1) 50%, rgba(19, 112, 158, 1) 100%);
+}
+
+.signupsection {
+  height: 800px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pexels-823sl-2294361.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.signup {
+  font-size: 45px;
+  text-align: center;
+  color: #fbf8f8;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding-top: 20px;
+}
+
+.table-responsive {
+  margin: 60px auto;
+  width: 80%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  font-size: 18px;
+  border: 3px solid black;
+  color: white;
+}
+
+.table th {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.table td {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.table td li{
+  text-align: left;
+
+}
+
+.table thead th {
+  font-size: 30px;
+}
+
+.btn {
+  margin: 30px 700px;
+  display: block;
+  font-size: 18px;
+  padding: 10px 50px;
+}
+
+
+@media (max-width: 992px) {
+  .signup {
+    font-size: 38px;
+  }
+
+  .table th {
+    font-size: 22px;
+    color: white;
+  }
+
+  .table td {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+  .table td {
+  text-align: left;
+  }
+
+  .table thead th {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  .signupsection {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .signup {
+    font-size: 30px;
+    padding: 10px 20px;
+  }
+
+  .table-responsive {
+    width: 95%;
+    margin: 40px auto 20px;
+  }
+
+  .table {
+    font-size: 16px;
+  }
+
+  .table th,
+  .table td,
+  .table thead th {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+  }
+
+    .table td li{
+  text-align: left;
+  }
+
+
+  .btn {
+    margin: 30px auto; 
+    font-size: 16px;
+    width: 90%;
+    max-width: 100px;
+  }
+.table-responsive {
+    overflow-x: auto;
+  }
+
+  table {
+    table-layout: fixed;
+    word-wrap: break-word;
+    width: 100%;
+  }
+
+  th, td {
+    word-break: break-word;
+    white-space: normal;
+    padding: 10px;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  td ul {
+    padding-left: 18px;
+    margin: 0;
+  }
+
+  td li {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+
+  .table td, .table th {
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .signup {
+    font-size: 26px;
+  }
+
+   .btn {
+    margin: 30px 150px;
+    width: 90%;
+    max-width: 100px;
+  }
+}

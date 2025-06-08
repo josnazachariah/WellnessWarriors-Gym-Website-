@@ -1,0 +1,166 @@
+body{
+    background-color: black;
+    color: rgb(209, 211, 212);
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: green
+}
+
+#tick{
+width: 200px;
+padding-left: 640px;
+}
+
+
+.container{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 700px;
+}
+
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+  margin-top: 20px;
+}
+
+.home-link {
+  color: rgb(243, 247, 249);
+  text-decoration: underline;
+  font-size: 20px;
+  margin-right: 90px;
+}
+
+.back {
+        background-image:#0e587a;
+      margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.2s;
+            background-size: 200% auto;
+            color: rgb(6, 76, 120);            
+            box-shadow: 0 0 20px #057784;
+            border-radius: 10px;
+            display: block;
+          font-weight: bold;
+  
+}
+
+
+          .back:hover {
+            background-position: right center;
+            color: #060606;
+            text-decoration: none;
+          }
+
+
+
+
+p{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  #tick {
+    padding-left: 500px;
+    width: 180px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 26px;
+  }
+
+  .back {
+    padding: 12px 40px;
+    font-size: 16px;
+  }
+
+  .home-link {
+    font-size: 18px;
+    margin-right: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #tick {
+    padding-left: 750px;
+    width: 160px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+ 
+
+  .home-link {
+    margin-right: 0;
+    font-size: 16px;
+  }
+
+  .back {
+    font-size: 15px;
+    padding: 12px 35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #tick {
+    padding-left: 140px;
+    width: 140px;
+  }
+
+  h1 {
+    font-size: 28px;
+    padding: 0 10px;
+  }
+
+  p {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  .back {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+
+  .home-link {
+    font-size: 16px;
+    text-align: center;
+  }
+
+
+
+  .container {
+    height: 900px;
+    padding-bottom: 50px;
+  }
+}

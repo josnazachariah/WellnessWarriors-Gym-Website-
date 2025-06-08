@@ -1,0 +1,148 @@
+
+.mainbody{
+    background-color: #020202;
+    color: rgb(240, 234, 234);;
+  }
+
+.row{
+
+  background-color: black;
+}
+
+  .img1{
+    width:400px;
+    height: 600px;
+    margin-right:100px;
+   transition: all 0.3s ease; 
+  }
+  .img2{
+    width:420px;
+    height: 600px;
+    margin-left:100px;
+   padding-top: 100px;
+   transition: all 0.3s ease; 
+
+  }
+      
+  .img1:hover{
+    transform: scale(1.1);
+  }
+  
+
+  .col{
+    width: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 25px;
+    padding-top: 40px;
+    color: rgb(198, 206, 210);
+  }
+
+  
+
+
+  .container{
+    background-color:black
+  }
+
+
+
+  .bottomsection{
+    background-image: url(gy11.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+font-size: 20px;
+color: aliceblue;
+z-index: 1px;
+padding: 50px;
+  }
+
+
+
+
+
+  
+.button{
+  margin-left: 1300px;
+}
+
+      
+.button :hover{
+  background-color: aquamarine;
+  transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  .img1, .img2 {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    padding-top: 0;
+  }
+
+  .col {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mainbody {
+    padding: 20px;
+  }
+
+  .bottomsection {
+    padding: 30px 15px;
+    font-size: 18px;
+    background-position: center;
+  }
+
+  .button {
+    display: block;
+    margin: 30px auto 0;
+    margin-left: 300px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .footer-section {
+    width: 100%;
+  }
+
+  .quick-links {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .quick-links li {
+    margin: 5px 0;
+  }
+
+  .contact-links p,
+  .social-links a {
+    text-align: center;
+    display: block;
+    margin: 5px 0;
+  }
+
+}

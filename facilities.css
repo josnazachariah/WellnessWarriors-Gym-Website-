@@ -1,0 +1,235 @@
+
+
+.container{
+   background-color:white;
+         background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(pexels-goumbik-669577.jpg);
+       height: 1200px;
+      background-position: center;
+      background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+          }
+
+          
+
+header{
+   background-color:white;
+          background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(pexels-goumbik-669577.jpg);
+       height: 300px;
+      background-position: center;
+      background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+          }
+
+          
+
+
+
+          h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+          }
+          
+
+          
+.cardsection{
+   
+  display: flex;
+  justify-content: space-between; 
+  gap: 40px;
+  margin: 40px auto;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+
+
+
+          .custom-card {
+            background: #0d78a2;
+            float: left;
+            width: 370px;
+            height: 400px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s;
+            padding-top: 70px;
+          }
+          .custom-card:hover {
+            transform: translateY(-16px);
+          
+          }
+          .custom-card  h2 {
+            color: #438ce6;
+            margin-bottom: 15px;
+          }
+
+             
+
+
+          .card-title{
+            color: #0e4282;
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+           
+          }
+          
+
+
+          .card-text{
+            color: rgb(7, 7, 7);
+            padding-top: 270px;
+            font-size: 17px;
+          }
+    
+          
+         
+
+
+
+          .sectext1{
+           color: rgb(171, 213, 234);
+            font-size: 55px;
+               text-shadow: 2px 2px 4px rgba(5, 4, 4, 0.7);
+          }
+
+          .sectext2{
+            color:rgb(249, 249, 249);
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+          }
+
+
+
+
+/* Base Desktop Hover Effects */
+.custom-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.custom-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Touch Devices: Simulated Hover (Tap Feedback) */
+@media (hover: none) and (pointer: coarse) {
+  .custom-card:active {
+    transform: scale(0.97);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  }
+}
+
+/* ---------- RESPONSIVE BREAKPOINTS ---------- */
+
+/* Large Tablets and Small Laptops (≤1200px) */
+@media (max-width: 1200px) {
+  .custom-card {
+    width: 45%;
+    margin: 20px auto;
+  }
+}
+
+/* Tablets (≤992px) */
+@media (max-width: 992px) {
+  .custom-card {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .sectext1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .sectext2 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+/* Mobile Devices (≤768px) */
+@media (max-width: 768px) {
+  .cardsection {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .custom-card {
+    width: 95%;
+    height: auto;
+    margin-bottom: 25px;
+    padding-bottom: 85px;
+  }
+
+  .custom-card .card-title {
+    font-size: 20px;
+  }
+
+  .custom-card .card-text {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .sectext1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .sectext2 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  header {
+    height: auto;
+    padding: 40px 10px;
+  }
+ .container {
+    height: auto !important;      
+    min-height: 100vh;             
+    overflow: visible;          
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  main {
+    flex: 1;
+  }
+
+  footer {
+    position: relative;
+   
+  }
+
+}
+
+@media (max-width: 480px) {
+  .sectext1 {
+    font-size: 22px;
+  }
+
+  .sectext2 {
+    font-size: 14px;
+  }
+
+  .custom-card .card-title {
+    font-size: 18px;
+  }
+
+  .custom-card .card-text {
+    font-size: 13px;
+  }
+}
+
